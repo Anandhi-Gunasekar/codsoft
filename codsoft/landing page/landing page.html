@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saree Shop</title>
+<style>
+body {
+    font-family:'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: rgb(176, 190, 119);
+}
+
+header {
+    background-color: #8b0000;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #a52a2a;
+    border-radius: 5px;
+}
+
+.hero-section {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 2rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.about-section,
+.collection-section,
+.contact-section {
+    padding: 5rem;
+
+    text-align: center;
+}
+
+
+footer {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FASHION POINT</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Welcome to Saree Shop</h1>
+        <p>Discover the elegance of our Fashion point</p>
+        <img src="saree.jpj.png">
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Discover the timeless elegance and exquisite craftsmanship of our sarees. At our fashion point, 
+            we bring you a curated collection of traditional and contemporary sarees that celebrate the rich heritage of Indian textiles.
+             Whether you're looking for a classic silk saree, a vibrant cotton drape, or a modern designer piece, 
+             we have something for every occasion. 
+             Step into a world of beauty and grace with our handpicked selections, perfect for weddings, festivals, and everyday elegance.
+             We offer a wide range of traditional and modern sarees, crafted with the finest materials and intricate designs.</p>
+    </section>
+
+    <section id="collection" class="collection-section">
+        <h2>Our Collection</h2>
+                <img src="https://images.wholesalesalwar.com/2021y/October/27541/Red-Cherry-Silk-Reception-Wear-Codding-Work-Saree-SOFIA-5492.jpg">
+                <h3>Elegant Red-Cherry-Silk-Reception-Wear-Codding-Work-Saree-SOFIA-5492 Saree</h3>
+                <img src="https://www.wholesaletextile.in/product-img/Saroj-present-Madhavi-Chiffon-Satin-Designer-party-Wear-Sarees-catalogue-21570621838.jpg">
+                <h3>Beautiful party wear Saree</h3>
+                <img src="https://rishiboutique.in/cdn/shop/files/9C0FF1E7-B7F3-4FAA-BFA9-CDFEF4F357DF.jpg?v=1712312414">
+                <h3>Charming Green Soft silk Saree</h3>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: contact@sareeshop.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Saree Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
